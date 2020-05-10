@@ -1,0 +1,47 @@
+@media(max-width:415px){
+  body{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    border:none;
+  }
+
+  .pic{
+    width:380px;
+    height:230px;
+  }
+
+  .lessons{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container{
+    padding:0;
+  }
+
+  .top-wrapper{
+    background-image: url(https://pbs.twimg.com/media/EXr4ylgXQAABrwq?format=jpg&name=900x900);
+  }
+
+  .header-left h1{
+    font-size:45px;
+    line-height: 80px;
+    margin:0;
+    letter-spacing: 3px;
+    width:400px;
+  }
+
+  .top h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+    background-color: black;
+    opacity: 0.7;
+  }
+
+  .top h2{
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+
+}
