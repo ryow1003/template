@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family:"serif";
+}
+
+header{
+  height:80px;
+  width:100%;
+  background-color:black;
+  top:0;
+  opacity:0.7;
+  z-index: 10;
+  position: fixed;
+  color:white;
+}
+
+.header-left{
+  width:250px;
+  margin-right: 0;
+}
+
+.try{
+  background-color: black;
+  margin-top: 10px;
+  display: block;
+  transition: 1s;
+}
+
+.try:hover{
+  background-color: #797876;
+}
+.contact{
+  display:block;
+  transition: 1s;
+}
+.contact:hover{
+  background-color: #797876;
+}
+
+.header-right{
+  width:150px;
+  float:right;
+  background-color: black;
+  height:40px;
+}
+
+.header-right a{
+  color:white;
+  line-height: 65px;
+  padding: 0 25px;
+  transition: all 0.5s;
+  line-height:40px;
+  display:block;
+}
+
+.container{
+  max-width:1170px;
+  width:100%;
+  padding:0 15px;
+  margin:0 auto;
+}
+
+.top-wrapper{
+  background-image: url(https://d23.com/app/uploads/2013/08/1180w-600h_disney-legends-steven-jobs.jpg);
+  background-size: cover;
+  height:700px;
+}
+
+.top{
+  text-align: center;
+}
+
+.top h1{
+  margin-top: 0;
+  padding-top: 300px;
+  font-size: 40px;
+  color:white;
+  margin-bottom:0;
+}
+
+.top h2{
+  font-size: 35px;
+  background-color: white;
+  opacity:0.6;
+  margin-top:0;
+}
+
+.top h1,h2{
+}
+
+.lesson-wrapper{
+  background-color:black;
+  color:white;
+  text-align: center;
+}
+
+.lessons{
+  display:flex;
+  flex-direction: row;
+}
+
+.lesson{
+  margin-top:100px;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.pic{
+  height:350px;
+  width:500px;
+}
+
+.name{
+  background-color: white;
+  opacity:0.6;
+  color:black;
+}
+
+footer{
+  background-color: black;
+  color:white;
+  height:100px;
+}
+
+.bottom p{
+  margin-top: 0;
+}
+
+.bottom{
+  display:flex;
+  padding-top: 50px;
+}
