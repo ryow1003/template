@@ -2,7 +2,79 @@
   body{
     box-sizing: border-box;
     margin:0;
+    @media(max-width:415px){
+  .container{
+    max-width: 415px;
     padding:0;
+  }
+
+  body{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    border:none;
+  }
+  .header-left h1{
+    font-size:35px;
+    line-height: 80px;
+    margin:0;
+    letter-spacing: 3px;
+    width:300px;
+    padding-left: 10px;
+  }
+
+  .header-right{
+    float:left;
+    margin-top:5px;
+    height:30px;
+    width:100px;
+  }
+
+  .header-right a{
+    height:30px;
+    width:100px;
+    font-size: 13px;
+
+  }
+
+
+  .home{
+    height:30px;
+    width:100px;
+    font-size: 12px;
+  }
+
+  .xxx{
+    width:100px;
+    height:30px;
+    line-height: 30px;
+  }
+
+
+  .pic{
+    height:200px;;
+    width:300px;
+  }
+
+  .content p{
+    font-size: 11px;
+  }
+  .intro{
+    margin-bottom: 0
+  }
+
+
+  footer h1{
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 50px;
+  }
+  footer{
+    height:50px;
+  }
+
+  }
+:0;
     border:none;
   }
 
